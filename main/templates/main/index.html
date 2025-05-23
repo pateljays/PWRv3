@@ -305,17 +305,20 @@
             <div class="row" style="background-color:;">
               <div class="col-10 offset-1">
                 <!-- basic information row -->
-                <div class="row my-4">
-                  <div class="col-4">
-                    <h5><b style="color:blue">Patient ID:</b> <br><span style="color:black">{{params.p_id}}</span></h5>
-                  </div>
-                  <div class="col-4">
-                    <h5><b> </b> <br><span style="color:red"></span></h5>
-                  </div>
-                  <div class="col-4">
-                    <h5><b style="color:blue">Score:</b> <br><span style="color:black">{{params.y_pred_norm}}</span></h5>
-                  </div>
-                </div>
+		<div class="row justify-content-center my-4 text-center">
+		  <div class="col-auto mx-4">
+		    <h5>
+		      <b style="color:blue">Patient ID:</b><br>
+		      <span style="color:black">{{ params.p_id }}</span>
+		    </h5>
+		  </div>
+		  <div class="col-auto mx-4">
+		    <h5>
+		      <b style="color:blue">Score:</b><br>
+		      <span style="color:black">{{ params.y_pred_norm }}</span>
+		    </h5>
+		  </div>
+		</div>
                 
                 <!--  overall risk figure row -->
                 <div class="row my-3">
