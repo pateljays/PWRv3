@@ -17,7 +17,7 @@ import pickle
 f_data_dict = {'ids':'Patient ID'}
 
 labels_dict = {
-    'Oral_Health_Index'             :'Oral Health Instructions',
+    'Oral_Health_Index'             :'Oral Hygiene Instructions',
     'Bitewing_Series'                :'Bitewing Series',
     'Tobacco_Counsel'               :'# Tobacco Counsel',
     'Completed_Tx'                   :'# Completed Treatments',
