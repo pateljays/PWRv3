@@ -37,7 +37,7 @@ def predict_tool(file_dir, p_info):
     y_pred_df['Caries_Lesions_risk'] = y_pred_norm
 
     labs = X_data.copy()
-    labs.rename(columns = {'Oral_Health_Index':'Oral Health Index','Bitewing_Series':'Bitewing Series',
+    labs.rename(columns = {'Oral_Health_Index':'Oral Health Instructions','Bitewing_Series':'Bitewing Series',
                             'Tobacco_Counsel':'# Tobacco Counsel','Completed_Tx': '# Completed Treatments',
                             'Recall_Exams':'# Recall Exams', 'Nutritional_Counsel':'# Nutritional Counsel',
                             'Class_II_Restorations':'Class II Restorations',
